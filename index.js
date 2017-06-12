@@ -1,4 +1,4 @@
-const Discord = require('Discord.js');
+const Discord = require('Discord.js'); //Je suis Dorian
 const bot = new Discord.Client();
 const Help = require('./commands/help.js');
 const Rand = require('./commands/rand.js');
