@@ -1,11 +1,11 @@
-const Discord = require('Discord.js');
+const Discord = require('./node_modules/discord.js');
 const bot = new Discord.Client();
 const Help = require('./commands/help.js');
 const Rand = require('./commands/rand.js');
 const Carte = require('./commands/carte.js');
 
 bot.on('ready', function () {
-    bot.user.setGame('Mode Sentinelle').catch(console.error); 
+    bot.user.setGame('Mode Sentinelle').catch(console.error);
 });
 
 bot.on('guildMemberAdd', function (member) {

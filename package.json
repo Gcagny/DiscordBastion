@@ -9,6 +9,13 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "discord.js": "^11.1.0"
+    "bufferutil": "^3.0.1",
+    "discord": "^0.8.2",
+    "discord.js": "^11.1.0",
+    "erlpack": "github:hammerandchisel/erlpack",
+    "libsodium-wrappers": "^0.5.1",
+    "node-opus": "^0.2.6",
+    "opusscript": "0.0.3",
+    "uws": "^0.14.5"
   }
 }
