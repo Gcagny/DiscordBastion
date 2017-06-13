@@ -1,12 +1,9 @@
-<<<<<<< HEAD
 const Discord = require('./node_modules/discord.js');
-=======
-const Discord = require('Discord.js'); //Je suis Dorian
->>>>>>> b8dc601439084daed1383618206587ed11eb5715
 const bot = new Discord.Client();
 const Help = require('./commands/help.js');
 const Rand = require('./commands/rand.js');
 const Carte = require('./commands/carte.js');
+const Lore = require('./commands/lore.js');
 
 bot.on('ready', function () {
     bot.user.setGame('Mode Sentinelle').catch(console.error);
@@ -34,7 +31,7 @@ bot.on('guildMemberAdd', member => {
 });
 
 bot.on('message', function (message) {
-    let commandUsed = Help.parse(message) || Rand.parse(message) || Carte.parse(message);
+    let commandUsed = Help.parse(message) || Rand.parse(message) || Carte.parse(message) || Lore.parse(message);
 });
 
 bot.login('MzIyNzgyOTE2OTY1MDQwMTMy.DBxqJw.28yzO541OBh9UI_TiLPUNp1si0s');

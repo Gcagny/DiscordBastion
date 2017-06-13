@@ -39,6 +39,10 @@ Send in the chat an Overwatch playing card
 
 Send in the chat a random number between 1 - 100
 
+> !lore
+
+Send you a link to an awsome Overwatch's Lore Website
+
 
 ## Collaborators
 
