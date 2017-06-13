@@ -2,8 +2,9 @@
 
 ## About
 
-This project is to create a bot for Discord ( https://discordapp.com/ ) that use an OverWatch 
+This project is to create a bot for [Discord](https://discordapp.com/) that use an OverWatch 
 API .
+We're using the [Discord.js](https://discord.js.org/#/) node module.
 
 ## Getting Started
 
@@ -13,7 +14,6 @@ API .
     ```
     cd path/to/your/folder
     git clone https://github.com/Gcagny/DiscordBastion.git
-	
     ```
 3. Install your dependencies
     ```
@@ -40,7 +40,9 @@ Send in the chat an Overwatch playing card
 Send in the chat a random number between 1 - 100
 
 
+## Collaborators
 
+[Craaftx](https://github.com/Craaftx)
 
 
 
