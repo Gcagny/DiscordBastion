@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 const Discord = require('./node_modules/discord.js');
+=======
+const Discord = require('Discord.js'); //Je suis Dorian
+>>>>>>> b8dc601439084daed1383618206587ed11eb5715
 const bot = new Discord.Client();
 const Help = require('./commands/help.js');
 const Rand = require('./commands/rand.js');
